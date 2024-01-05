@@ -1,17 +1,14 @@
+import MainNav from "../navigation/MainNav";
+
 const AddProduct = function AddProduct() {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/">Shop</a></li>
-          <li><a href="/add-product">Add Product</a></li>
-        </ul>
-      </nav>
+    <>
+      <MainNav />
       <main>
         <h1>My Products</h1>
         <p>List of all the products.</p>
       </main>
-    </header>
+    </>
   );
 }
 
