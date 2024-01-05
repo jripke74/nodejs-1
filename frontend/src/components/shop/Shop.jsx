@@ -1,5 +1,7 @@
 import MainNav from "../navigation/MainNav.jsx";
 
+import './Shop.css';
+
 const Shop = function Shop() {
   return (
     <>

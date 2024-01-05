@@ -1,7 +1,11 @@
+import MainNav from "../navigation/MainNav";
+
 const Status404 = function Status404(props) {
   
-  return (
-    <h1>Page Not Found!</h1>
+  return (<>
+  <MainNav />
+  <h1>Page Not Found!</h1>
+  </>
   )
 };
 
