@@ -7,8 +7,15 @@ const Shop = function Shop() {
     <>
       <MainNav />
       <main>
-        <h1>My Products</h1>
-        <p>List of all the products</p>
+        <div className="grid">
+          <article className="card product-item">
+            <header className="card__header">
+              <h1 className="product__title">
+                
+              </h1>
+            </header>
+          </article>
+        </div>
       </main>
     </>
   )

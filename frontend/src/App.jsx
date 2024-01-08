@@ -7,9 +7,9 @@ import {
 
 import AddProduct from './components/admin/AddProduct.jsx';
 import Shop from './components/shop/Shop.jsx';
+import Status404 from './components/error/Status404.jsx';
 
 import './App.css';
-import Status404 from './components/error/Status404.jsx';
 
 function App(props) {
   return (
